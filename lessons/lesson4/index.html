@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 10000px;
+        }
+        /* h1 + p{
+            
+        } */
+        p:first-of-type{
+            border: 1px solid red;
+        }
+        h1 ~ p{
+            color: blue;
+        }
+        div > span{
+            font-style: italic;
+        }
+        input[type='text']{
+            background-color: blueviolet;
+        }
+        input[type='email']{
+            background-color: red;
+        }
+        input[type='number']{
+            background-color: green;
+        }
+        input[type='password']{
+            background-color: blue;
+        }
+        /* a[href^='https:']{
+            color: brown;
+        }
+        a[href$='.ru/']{
+            color:darkorange;
+        }
+        a[href*='142']{
+            font-weight: 900;
+        } */
+        p::selection{
+            background: #000;
+            color: greenyellow;
+        }
+        h3::before{
+            content: '-------- ';
+        }
+        h3::after{
+            content: ' --------';
+        }
+        a:link{
+            color: green;
+        }
+        a:visited{
+            color:darkorange;
+        }
+        a:active{
+            font-weight: 900;
+        }
+        a:focus{
+            font-style: italic;
+        }
+        a:hover{
+            font-size: xx-large;
+        }
+        li:nth-child(3n+3){
+            background: red;
+        }
+        li:not(.test){
+            font-style: italic;
+            font-weight: 900;
+        }
+        img::selection{
+            background-color:fuchsia;
+           
+        }
+    </style>
+</head>
+<body>
+    <h1>Компьютеры и серверы</h1>
+    <h2>Процессоры</h2>
+    <h3>Процессоры</h3>
+    <p>test</p>
+    <p>hello</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat ab facilis nemo harum dignissimos quisquam blanditiis maiores laboriosam nobis sequi dolor beatae voluptatum minus totam voluptas omnis cupiditate, hic odio.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab nihil, nulla id vel laudantium dolores sunt inventore ipsum dolorum recusandae dolorem suscipit est, nesciunt hic tempora. Perferendis ratione deserunt commodi.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur corrupti, laudantium explicabo eos neque repellendus provident ratione voluptatum obcaecati, quae odit magni itaque ipsam perspiciatis? Consequuntur, officia. Corporis, neque?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum perferendis nesciunt nam, aut cupiditate adipisci nostrum officia, dolorem laboriosam eveniet enim, fugit quaerat labore quidem dolorum nulla natus ex. Inventore.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, eos! Odit ipsa, sit officia doloribus libero doloremque quidem suscipit animi. Quibusdam suscipit reprehenderit velit voluptate. Sit ipsum atque qui incidunt.</p>
+    <h3>hello h3</h3>
+    <img width="200" src="https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/0x0.jpg?format=jpg&crop=4560,2565,x790,y784,safe&width=1200" alt="">
+    <span>span1</span>
+    <div>
+        <span>span2</span>
+        <p>
+            <span>span3</span>
+        </p>
+    </div>
+    <h3>hello h3</h3>
+    <hr>
+
+    <input type="text" title="text">
+    <input type="email">
+    <input type="password" title="hello">
+    <input type="number">
+    <h3>hello h3</h3>
+    <hr>
+
+    <a href="https://www.onlisdsdsner.by/">onliner</a> <br>
+    <a href="https://aliexpress.ru/">aliexpress</a> <br>
+    <a href="http://142.93.172.35:8080/">mysite</a>
+
+    <hr>
+
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>1</li>
+        <li class="test">2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+</body>
+</html>

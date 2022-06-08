@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .wrap{
+            width: 300px;
+            height: 300px;
+            background-color: cadetblue;
+            margin: 50px;
+            position: relative;
+           
+        }
+        .wrap:hover{
+            -webkit-box-shadow: -4px -1px 16px 0px #FF3333; 
+box-shadow: -4px -1px 16px 0px #FF3333;
+border: 5px solid #1C6EA4;
+border-radius: 25px 40px 40px 10px;
+-moz-transform: scale(0.8) rotate(318deg) translate(-7px, 35px) skew(15deg, 15deg);
+-webkit-transform: scale(0.8) rotate(318deg) translate(-7px, 35px) skew(15deg, 15deg);
+-o-transform: scale(0.8) rotate(318deg) translate(-7px, 35px) skew(15deg, 15deg);
+-ms-transform: scale(0.8) rotate(318deg) translate(-7px, 35px) skew(15deg, 15deg);
+transform: scale(0.8) rotate(318deg) translate(-7px, 35px) skew(15deg, 15deg);
+        }
+        .item{
+            width: 50px;
+            height: 50px;
+            position: absolute;
+        }
+        .item:first-child{
+            background-color: red;
+            top: 20px;
+            left: 20px;
+        }
+        .item:nth-child(2){
+            background-color: yellow;
+            top: 40px;
+            left: 40px;
+        }
+        .item:last-child{
+            background-color: blue;
+            top: 60px;
+            left: 60px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <!-- 
+        1. static
+        2. relative
+        3. absolute
+        4: fixed
+        5. sticky
+     -->
+    
+    <div class="wrap">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+
+</body>
+</html>
