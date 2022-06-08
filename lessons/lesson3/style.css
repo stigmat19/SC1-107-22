@@ -1,0 +1,25 @@
+#aaa{
+    color: rgb(6, 7, 4);
+}
+p{
+    color: violet !important;
+}
+.supervip{
+    font-style: italic;
+    font-weight: 900;
+}
+.vip{
+    color: saddlebrown;
+    font-weight: 400;
+}
+p span{
+    font-weight: bold;
+}
+
+.test{
+    color: red;
+}
+div.test{
+    font-style: italic;
+}
+
